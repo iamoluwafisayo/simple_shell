@@ -2,7 +2,7 @@
 
 /**
  * get_environ - returns the string array copy of the new env
- * @info: the structure that contains potential arguments. 
+ * @info: the structure that contains potential arguments.
  * Return: Always 0. success
  */
 char **get_environ(info_t *info)
@@ -18,7 +18,8 @@ char **get_environ(info_t *info)
 
 /**
  * _unsetenv - Removes an env variable
- * @info: Structure containing potential arguments maintaining const function prototype
+ * @info: Structure containing potential arguments maintaining const function
+ * prototype
  *  Return: 1 on delete, else 0
  * @var: a string env var property
  */
@@ -49,10 +50,11 @@ int _unsetenv(info_t *info, char *var)
 
 /**
  * _setenv - Initialize a new env variable or modifies existing one
- * @info: Structure containing potential arguments maintaining const function prototype
+ * @info: Structure containing potential arguments maintaining const function
+ * prototype
  * @var: a string env var property
  * @value: the string env var value
- *  Return: Always 0 .Success 
+ *  Return: Always 0 .Success
  */
 int _setenv(info_t *info, char *var, char *value)
 {
@@ -62,7 +64,6 @@ int _setenv(info_t *info, char *var, char *value)
 
 	if (!var || !value)
 		return (0);
-		
 	buf = malloc(_strlen(var) + _strlen(value) + 2);
 	if (!buf)
 		return (1);
