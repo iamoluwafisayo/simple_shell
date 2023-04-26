@@ -1,7 +1,7 @@
 B.\"Manpage for simple shell 
 
-.\"Created by Adeeyo (Ademic) Michael and Eniola Oluyemi
-.TH HSH 16, "February 2023 "ALX" "SHELLEX - Simple Shell man page"
+.\"Created by David Tosin Egm and Frank Madala
+.TH HSH 26:, "April 2023 "ALX" "SHELLEX - Simple Shell man page"
 
 .SH NAME
 hsh\fR \- simple UNIX command interpreter
