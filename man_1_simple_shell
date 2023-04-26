@@ -1,12 +1,7 @@
 B.\"Manpage for simple shell 
 
-<<<<<<< HEAD
 .\"Created by David Oluwatosin Dorcas and Frank Kaziputa
-.TH HSH 16, "February 2023 "ALX" "SHELLEX - Simple Shell man page"
-=======
-.\"Created by David Tosin Egm and Frank Madala
-.TH HSH 26:, "April 2023 "ALX" "SHELLEX - Simple Shell man page"
->>>>>>> b2c0389300bc5d8403ba22e87b0f0cf8e23c3ec3
+.TH HSH 16, "February 2023 "ALX" "SHELLEX - Simple Shell man pag
 
 .SH NAME
 hsh\fR \- simple UNIX command interpreter
